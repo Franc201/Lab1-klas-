@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -17,6 +19,14 @@ public class Main {
         p2.setX(15);
         p2.setY(8);
 
+        ArrayList<Point> points = new ArrayList<>();
+        points.add(new Point(90, 78));
+        points.add(new Point(80, 78));
+        points.add(new Point(70, 78));
+        points.add(new Point(60, 78));
+        points.add(new Point(50, 78));
+
+        Polygon poly = new Polygon(points);
 
     }
 }
